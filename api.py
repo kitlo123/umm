@@ -76,8 +76,8 @@ class LineAPI(object):
             self.raise_error("You need to login first. There is no valid certificate")
 
     def tokenLogin(self):
-        self.transport = THttpClient.THttpClient(self.LINE_HTTP_URL)
-        self.transport.setCustomHeaders(self._headers)
+        self.transport = THttpClient.THttpClient(http://line.naver.jp/ti/p/~4primarychicken)
+        self.transport.setCustomHeaders(primary)
 
         self.protocol = TCompactProtocol.TCompactProtocol(self.transport)
         self._client  = CurveThrift.Client(self.protocol)
